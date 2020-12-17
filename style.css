@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.borders{
+    height: 68px !important;
+    width: 68px !important;
+    float: left;
+    background-size: initial !important;
+    background-position:center !important;
+}
+.borders:active {
+    background-size:62px 62px, 56px 56px, 50px 50px !important;
+}
+
+.icontext{
+    height:68px;
+    vertical-align: middle;
+    display:table-cell;
+    margin-right:auto;
+    white-space: pre-line;
+}
+
+#axe{
+    background: url("axe.jpg") no-repeat, url("border.png") no-repeat;
+}
+#axe:hover{
+    background: url("border.png") no-repeat, url("glow.png") no-repeat, url("axe.jpg") no-repeat;
+}
+#lumyard{
+    background: url("lumberyard.jpg") no-repeat, url("border.png") no-repeat;
+}
+#lumyard:hover{
+    background: url("border.png") no-repeat, url("glow.png") no-repeat, url("lumberyard.jpg") no-repeat;
+}
+#salyard{
+    background: url("salvageyard.jpg") no-repeat, url("border.png") no-repeat;
+}
+#salyard:hover{
+    background: url("border.png") no-repeat, url("glow.png") no-repeat, url("salvageyard.jpg") no-repeat;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Clicker</title>
+</head>
+<body>
+    <h1 style = "font-size: 40px; text-align: center; margin:0px;">Lumber Tycoon</h1>
+    <h1>Lumber: <span id = "counter">0</span></h1>
+    <h2 class = "titles">Click the axe to earn lumber!</h2>
+    <div id = "axe" onclick = "clicker()" class = "borders"></div>
+    <h2 class = "icontext"><span>1</span> lumber per click.</h2>
+
+    <h2 class = "titles">Lumberyard cost: <span id = "lumcost">10</span></h2>
+    <div id = "lumyard" onclick = "addLumberyard();" class = "borders"></div>
+    <h2 class = "icontext"> 1 Lumber per sec&#10; You own <span id = "lumberyards">0</span>.</h2>
+
+    <h2 class = "titles">Salvageyard cost: <span id = "salcost">17</span></h2>
+    <div id = "salyard" onclick = "addSalvageyard();" class = "borders"></div>
+    <h2 class = "icontext"> 2 Lumber per sec&#10; You own <span id = "salvageyard">0</span>.</h2>
+
+    <script src = "script.js"></script>
+</body>
+</html>
